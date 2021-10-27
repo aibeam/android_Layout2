@@ -32,10 +32,11 @@ public class MainActivity extends AppCompatActivity {
         button2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                layout1.setName("홍삼이");
-                layout1.setImage(R.mipmap.ic_launcher_round);
+                layout1.setImage(R.drawable.ic_launcher_foreground);
             }
         });
+
+
 
     }
 }
